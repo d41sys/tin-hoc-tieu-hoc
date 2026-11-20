@@ -1,0 +1,7 @@
+{
+  "name": "tin-hoc-tieu-hoc",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node server.js" }
+}

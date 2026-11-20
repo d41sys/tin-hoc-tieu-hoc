@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T00:23:06+00:00",
+  "title": "Design System: Tin học vui",
+  "extensions": {
+    "colorMeta": {
+      "crayon-red": {
+        "role": "secondary",
+        "displayName": "Poppy Red Crayon",
+        "canonical": "#E0433A",
+        "tonalRamp": [
+          "#A82D26",
+          "#E0433A",
+          "#FDE4E2"
+        ]
+      },
+      "crayon-red-wax": {
+        "role": "secondary",
+        "displayName": "Poppy Red Wax Edge",
+        "canonical": "#A82D26"
+      },
+      "crayon-red-wash": {
+        "role": "secondary",
+        "displayName": "Poppy Red Wash",
+        "canonical": "#FDE4E2"
+      },
+      "crayon-orange": {
+        "role": "secondary",
+        "displayName": "Tangerine Crayon",
+        "canonical": "#FF9F1C",
+        "tonalRamp": [
+          "#C47506",
+          "#FF9F1C",
+          "#FFEBD0"
+        ]
+      },
+      "crayon-orange-wax": {
+        "role": "secondary",
+        "displayName": "Tangerine Wax Edge",
+        "canonical": "#C47506"
+      },
+      "crayon-orange-wash": {
+        "role": "secondary",
+        "displayName": "Tangerine Wash",
+        "canonical": "#FFEBD0"
+      },
+      "crayon-yellow": {
+        "role": "secondary",
+        "displayName": "Sunflower Crayon",
+        "canonical": "#FFD23F",
+        "tonalRamp": [
+          "#C9A114",
+          "#FFD23F",
+          "#FFF5CC"
+        ]
+      },
+      "crayon-yellow-wax": {
+        "role": "secondary",
+        "displayName": "Sunflower Wax Edge",
+        "canonical": "#C9A114"
+      },
+      "crayon-yellow-wash": {
+        "role": "secondary",
+        "displayName": "Sunflower Wash",
+        "canonical": "#FFF5CC"
+      },
+      "crayon-green": {
+        "role": "primary",
+        "displayName": "Meadow Green Crayon",
+        "canonical": "#23955A",
+        "tonalRamp": [
+          "#17683E",
+          "#23955A",
+          "#DCF2E4"
+        ]
+      },
+      "crayon-green-wax": {
+        "role": "secondary",
+        "displayName": "Meadow Green Wax Edge",
+        "canonical": "#17683E"
+      },
+      "crayon-green-wash": {
+        "role": "secondary",
+        "displayName": "Meadow Green Wash",
+        "canonical": "#DCF2E4"
+      },
+      "crayon-blue": {
+        "role": "secondary",
+        "displayName": "Sky Blue Crayon",
+        "canonical": "#2A7FD4",
+        "tonalRamp": [
+          "#1B5C9E",
+          "#2A7FD4",
+          "#DDEBFA"
+        ]
+      },
+      "crayon-blue-wax": {
+        "role": "secondary",
+        "displayName": "Sky Blue Wax Edge",
+        "canonical": "#1B5C9E"
+      },
+      "crayon-blue-wash": {
+        "role": "secondary",
+        "displayName": "Sky Blue Wash",
+        "canonical": "#DDEBFA"
+      },
+      "crayon-purple": {
+        "role": "secondary",
+        "displayName": "Grape Crayon",
+        "canonical": "#8653C0",
+        "tonalRamp": [
+          "#623A92",
+          "#8653C0",
+          "#EEE4F8"
+        ]
+      },
+      "crayon-purple-wax": {
+        "role": "secondary",
+        "displayName": "Grape Wax Edge",
+        "canonical": "#623A92"
+      },
+      "crayon-purple-wash": {
+        "role": "secondary",
+        "displayName": "Grape Wash",
+        "canonical": "#EEE4F8"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Drawing Paper",
+        "canonical": "#FFFFFF"
+      },
+      "paper-tint": {
+        "role": "neutral",
+        "displayName": "Pencil Tint",
+        "canonical": "#F2F4F9"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pencil Line",
+        "canonical": "#E1E5EF"
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Pencil Line Strong",
+        "canonical": "#C3C9D9"
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#2B2D42"
+      },
+      "graphite-soft": {
+        "role": "neutral",
+        "displayName": "Graphite Soft",
+        "canonical": "#565970"
+      }
+    },
+    "typographyMeta": {
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Monumental grade numbers; 4.5rem under 720px."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles and podium numbers."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and question titles, logo, answer text."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Uppercase crayon button labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, chips, piece labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "crayon-edge",
+        "value": "0 6px 0 var(--cd)",
+        "purpose": "Hard bottom edge in the crayon's wax tone on pressable crayon surfaces (user-pinned Parroto reference)."
+      },
+      {
+        "name": "crayon-edge-small",
+        "value": "0 4px 0 var(--cd)",
+        "purpose": "Small buttons and placed pieces."
+      },
+      {
+        "name": "paper-edge",
+        "value": "0 6px 0 var(--line)",
+        "purpose": "Unselected name cards and non-current stage cards."
+      },
+      {
+        "name": "outline-edge",
+        "value": "0 6px 0 var(--line-d)",
+        "purpose": "Ghost buttons and answer options at rest."
+      },
+      {
+        "name": "pressed",
+        "value": "transform: translateY(6px); box-shadow: 0 0 0",
+        "purpose": "Active state: surface slides down by the edge and the edge collapses."
+      },
+      {
+        "name": "podium-inset",
+        "value": "inset 0 -6px 0 var(--cd)",
+        "purpose": "Leaderboard blocks keep the edge inside."
+      },
+      {
+        "name": "bubble-soft",
+        "value": "0 6px 16px rgba(43, 45, 66, .12)",
+        "purpose": "Mascot speech bubble, the only blurred shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-crayon",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "The single easing curve for every transform and box-shadow transition."
+      },
+      {
+        "name": "press",
+        "value": ".12s",
+        "purpose": "Press travel on pressable surfaces."
+      },
+      {
+        "name": "card-flip",
+        "value": ".45s",
+        "purpose": "Memory card Y-axis flip."
+      },
+      {
+        "name": "star-color-in",
+        "value": ".5s, stagger .25s",
+        "purpose": "Earned stars colour in on the result screen."
+      },
+      {
+        "name": "shake",
+        "value": ".4s, ±8px",
+        "purpose": "Wrong answer and sad mascot."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Crayon-block call to action; its wax edge is the block's side and it presses down.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Chơi ngay</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:72px;padding:0 28px;border:0;border-radius:16px;font:800 1.625rem/1 'Baloo 2',Nunito,ui-rounded,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.01em;cursor:pointer;transition:transform .12s cubic-bezier(.16,1,.3,1),box-shadow .12s cubic-bezier(.16,1,.3,1),filter .2s}.ds-btn:hover{filter:brightness(1.06)}.ds-btn:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}.ds-btn:active{transform:translateY(6px);box-shadow:0 0 0 #17683E}.ds-btn-primary{background:#23955A;color:#fff;box-shadow:0 6px 0 #17683E}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Paper secondary action with an outline edge.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Quay lại</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:72px;padding:0 28px;border:0;border-radius:16px;font:800 1.625rem/1 'Baloo 2',Nunito,ui-rounded,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.01em;cursor:pointer;transition:transform .12s cubic-bezier(.16,1,.3,1),box-shadow .12s cubic-bezier(.16,1,.3,1),filter .2s}.ds-btn:hover{filter:brightness(1.06)}.ds-btn:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}.ds-btn:active{transform:translateY(6px);box-shadow:0 0 0 #17683E}.ds-btn-ghost{background:#fff;color:#2B2D42;border:3px solid #C3C9D9;box-shadow:0 6px 0 #C3C9D9}.ds-btn-ghost:active{box-shadow:0 0 0 #C3C9D9}"
+    },
+    {
+      "name": "Stage Card",
+      "kind": "card",
+      "refersTo": "stage-card",
+      "description": "Same-scale hub card: crayon-wash art panel, title, stars, then one button.",
+      "html": "<article class=\"ds-stage\"><div class=\"ds-art\"><svg width=\"64\" height=\"64\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2B2D42\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\"/><path d=\"M8 20h8M12 16v4\"/></svg></div><div class=\"ds-body\"><h3>Máy tính</h3><p>Em làm quen với máy tính.</p></div></article>",
+      "css": ".ds-stage{display:flex;flex-direction:column;width:290px;border:3px solid #E1E5EF;border-radius:16px;background:#fff;box-shadow:0 6px 0 #E1E5EF;overflow:hidden;font:700 1.125rem/1.45 Nunito,ui-rounded,system-ui,sans-serif;color:#2B2D42}.ds-art{height:140px;display:grid;place-items:center;background:#DDEBFA;border-bottom:3px solid #E1E5EF}.ds-body{padding:18px 20px 22px}.ds-body h3{margin:0 0 6px;font:800 1.625rem/1.15 'Baloo 2',Nunito,sans-serif}.ds-body p{margin:0;color:#565970}"
+    },
+    {
+      "name": "Answer Option (right)",
+      "kind": "custom",
+      "refersTo": "option-right",
+      "description": "Right answer: green wash, wax edge, green key with a check.",
+      "html": "<button class=\"ds-option ds-right\"><span class=\"ds-key\">A</span>Con chuột</button>",
+      "css": ".ds-option{display:flex;align-items:center;gap:16px;min-height:80px;padding:12px 22px;border:3px solid #C3C9D9;border-radius:16px;background:#fff;box-shadow:0 6px 0 #C3C9D9;font:800 1.625rem/1.2 Nunito,ui-rounded,system-ui,sans-serif;color:#2B2D42;cursor:pointer}.ds-key{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:#F2F4F9;font-family:'Baloo 2',Nunito,sans-serif}.ds-option:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}.ds-option:active{transform:translateY(6px);box-shadow:none}.ds-right{border-color:#23955A;background:#DCF2E4;box-shadow:0 6px 0 #17683E}.ds-right .ds-key{background:#23955A;color:#fff}"
+    },
+    {
+      "name": "Draggable Piece",
+      "kind": "custom",
+      "refersTo": "piece",
+      "description": "Sunflower crayon block the child drags (or taps) into a zone.",
+      "html": "<button class=\"ds-piece\">Bàn phím</button>",
+      "css": ".ds-piece{display:inline-flex;align-items:center;gap:10px;min-height:76px;padding:10px 20px;border:0;border-radius:16px;background:#FFD23F;color:#2B2D42;box-shadow:0 6px 0 #C9A114;font:800 1.125rem/1.2 Nunito,ui-rounded,system-ui,sans-serif;cursor:grab}.ds-piece:hover{filter:brightness(1.04)}.ds-piece:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}"
+    },
+    {
+      "name": "Nav Button",
+      "kind": "nav",
+      "refersTo": "nav-button",
+      "description": "Top-bar link or toggle; current page takes a graphite border.",
+      "html": "<a class=\"ds-nav\" href=\"#\">Xếp hạng</a>",
+      "css": ".ds-nav{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:0 16px;border:3px solid #E1E5EF;border-radius:14px;background:#fff;color:#2B2D42;font:800 1.125rem/1.45 Nunito,ui-rounded,system-ui,sans-serif;text-decoration:none;transition:background .2s,border-color .2s}.ds-nav:hover{background:#F2F4F9;border-color:#C3C9D9}.ds-nav:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill showing stars or XP in the greeting row.",
+      "html": "<span class=\"ds-chip\">12 XP</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;background:#F2F4F9;border:2px solid #E1E5EF;color:#2B2D42;font:800 1.125rem/1.45 Nunito,ui-rounded,system-ui,sans-serif}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Teacher-side text input.",
+      "html": "<input class=\"ds-field\" placeholder=\"Tên lớp\">",
+      "css": ".ds-field{min-height:52px;padding:0 14px;border:3px solid #C3C9D9;border-radius:12px;background:#fff;color:#2B2D42;font:700 1.125rem/1.45 Nunito,ui-rounded,system-ui,sans-serif}.ds-field:focus-visible{outline:4px solid #2A7FD4;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Crayon Box",
+    "overview": "Every stage is a picture the child colours in. Colour is the app's only state language: uncoloured line art is locked, colour is open, filled stars are earned. The ground is plain white drawing paper with graphite ink; six wax crayons (red, orange, yellow, green, blue, purple) supply every saturated surface, and each crayon carries a darker wax edge that becomes the thick bottom edge of its buttons and cards. Illustrations are Fluent Emoji Color; their high-contrast line versions stand in for locked art. Icons are Lucide line icons.\n\nThe density is deliberately low and the scale deliberately large: one decision per screen, pictogram plus word, targets of at least 2 cm. Only three text sizes exist. On a screen of same-scale cards, exactly one is loud: the current stage carries the only saturated call to action, the rest stay paper-white or washed. This refuses the glossy kids-app grid where every card shouts equally.\n\nThe chunky bottom edge on buttons and cards is a user-pinned choice taken from the Parroto reference (a binding brand commitment in PRODUCT.md), together with the press-down feel and the mascot drawn into game cards. Parroto's dark navy ground is not kept.",
+    "keyCharacteristics": [
+      "White paper ground, graphite ink, six crayons each in three tones: solid, wax edge, pale wash.",
+      "Colour means state: line art locked, colour open, filled star earned.",
+      "Thick hard bottom edge on pressable crayon surfaces; it travels down when pressed.",
+      "Three type sizes; pre-reader friendly (pictogram and word together).",
+      "Right and wrong are coded by mark shape (check vs cross in the key), never by colour alone.",
+      "Motion is short and physical, and fully disabled under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Colour Is State Rule",
+        "body": "Uncoloured line art is locked, a crayon-tinted panel is open, a filled star is earned. Never use crayon colour as pure decoration, and never colour a locked thing.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Loud Card Rule",
+        "body": "On any grid of same-scale cards only the current/next one carries a saturated CTA; the others stay paper or wash.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wax Edge Rule",
+        "body": "A crayon surface always pairs with its own darker wax edge, never a neutral grey or black one. Edge colour is the crayon's `-d` tone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shape Not Colour Rule",
+        "body": "Correct shows a check in the option's key; wrong shows a cross. Colour reinforces, it never carries the meaning alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Sizes Rule",
+        "body": "Only 1.125rem, 1.625rem and the clamped 2rem–2.5rem exist for text. New text picks one of them; it does not invent a fourth. Numerals are the one monumental exception.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy By Default Rule",
+        "body": "Nothing is lighter than weight 600; labels and buttons are 800. The only script face (Dancing Script 700) appears solely on the certificate image drawn to canvas, for the teacher's signature.",
+        "section": "typography"
+      },
+      {
+        "name": "The Press-Down Rule",
+        "body": "Whatever has a hard edge moves down by exactly that edge on `:active` and loses the edge. Static things never get a hard edge.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Edge Is The Crayon's Wax Rule",
+        "body": "Edge colour is always the surface's own `-d` crayon tone; neutral surfaces use Pencil Line or Pencil Line Strong.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** pair every crayon surface with its own wax edge (`--cd`) and let it press down by the full edge on `:active`.",
+      "**Do** use only the three text sizes (1.125rem, 1.625rem, clamped 2rem–2.5rem); numerals are the one monumental exception.",
+      "**Do** keep one saturated call to action per card grid; the current stage is the loud one.",
+      "**Do** mark right with a check and wrong with a cross, plus colour, never colour alone.",
+      "**Do** put a pictogram next to every label; the youngest users read slowly.",
+      "**Do** keep targets at least 52px (72px for primary actions) and give every drag a tap-then-tap alternative.",
+      "**Do** keep illustrations as Fluent Emoji Color and locked art as their High Contrast line versions; icons are Lucide line."
+    ],
+    "donts": [
+      "**Don't** use crayon colour as decoration, or colour anything the child has not unlocked.",
+      "**Don't** use the hard bottom edge on static containers (panels, certificates, tables); it belongs to pressable surfaces only.",
+      "**Don't** add a cream or tinted paper background; paper is pure white.",
+      "**Don't** use dark navy backgrounds (the Parroto ground was explicitly not kept).",
+      "**Don't** mix a neutral grey edge under a crayon surface, or white text on orange or yellow.",
+      "**Don't** rely on external fonts, CDNs or images; everything is self-hosted for offline LAN use.",
+      "**Don't** add a text size outside the ramp, or a weight below 600."
+    ]
+  }
+}

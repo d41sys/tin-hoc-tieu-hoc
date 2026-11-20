@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>Tin học vui – Ôn tập Tin học Tiểu học</title>
+  <link rel="icon" href="/art/crayon.svg">
+  <link rel="stylesheet" href="/fonts/fonts.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="logo" aria-label="Tin học vui, trang đầu"><img src="/art/crayon.svg" alt="" width="36" height="36"><span>Tin học vui</span></a>
+    <div class="who" id="who"></div>
+    <nav class="nav" aria-label="Chính">
+      <a class="navbtn" href="#/leaderboard" id="navBoard"></a>
+      <button class="navbtn" id="sound" type="button"></button>
+      <a class="navbtn" href="#/admin" id="navTeacher"></a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div class="mascot" id="mascot" aria-live="polite">
+    <p class="bubble" id="bubble">Chào em! Mình là Bíp.</p>
+    <img src="/art/robot.svg" alt="" width="76" height="76">
+  </div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
